@@ -1,0 +1,27 @@
+Create a Cloud9 instance: Development environment
+
+- Technically can code without any network interruptions
+
+$ aws s3 ls -- lists all the S3 buckets connected with the account
+
+- has hooks that can build code directly into that like AWS lambda
+
+Generating SSH keys and connecting to Github 
+$ ssh-keygen -t rsa (4 times press return)
+
+add the public key and private key in the github SSH directory
+$ cat /home/ec2-user/.ssh/id_rsa.pub
+copy the public key and add it in the SSH Directory of the Github 
+
+copy the SSH from repo-->code --> copy SSH addrs
+
+Go bck to cloud9
+
+$ git clone git@github.com:Varshitha-Gitspace/multi-cloud.git
+
+now that git repo is clones 'cd' into the folder and start using it
+
+$ cd multi-cloud
+../multi-cloud (master)$ _ ---> you should see smth like this 
+
+
