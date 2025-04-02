@@ -1,0 +1,13 @@
+../multi-cloud (master)$ python3 -m env ~/.multi-cloud
+../multi-cloud (master)$ 
+../multi-cloud (master)$ source ~/.multi-cloud/bin/activate
+(.mutli-cloud) ec2-user:../multi-cloud (master)$ which python
+---
+(.mutli-cloud) ec2-user:../multi-cloud (master)$ touch MakeFile
+(.mutli-cloud) ec2-user:../multi-cloud (master)$ touch requirements.txt
+(.mutli-cloud) ec2-user:../multi-cloud (master)$ touch test_hello.py
+(.mutli-cloud) ec2-user:../multi-cloud (master)$ touch hello.py
+ ---- all these commands in cloud 9 creates files in github
+
+Makefile: contains all the needed softwares and packages which we don't need to type again
+(.mutli-cloud) ec2-user:../multi-cloud (master)$ make lint --- installs that particular software
